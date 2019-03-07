@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "Network/NetworkAction.h"
+#import "NetworkAction.h"
 #import "NetworkAction+RequestCancel.h"
 
 @interface ViewController ()

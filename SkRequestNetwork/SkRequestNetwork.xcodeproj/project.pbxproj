@@ -15,17 +15,17 @@
 		CECD1122222FC51900A454EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CECD1120222FC51900A454EC /* LaunchScreen.storyboard */; };
 		CECD1125222FC51900A454EC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CECD1124222FC51900A454EC /* main.m */; };
 		CECD112F222FC51900A454EC /* SkRequestNetworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CECD112E222FC51900A454EC /* SkRequestNetworkTests.m */; };
-		CECD1179222FC52500A454EC /* NetworkResponseSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = CECD113A222FC52400A454EC /* NetworkResponseSerializer.m */; };
-		CECD117A222FC52500A454EC /* NetworkAction.m in Sources */ = {isa = PBXBuildFile; fileRef = CECD113B222FC52400A454EC /* NetworkAction.m */; };
-		CECD117B222FC52500A454EC /* NetworkConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = CECD113D222FC52400A454EC /* NetworkConfig.m */; };
-		CECD117C222FC52500A454EC /* NetworkEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = CECD113E222FC52400A454EC /* NetworkEngine.m */; };
-		CECD1182222FC52500A454EC /* NetworkAction+RequestCancel.m in Sources */ = {isa = PBXBuildFile; fileRef = CECD114C222FC52500A454EC /* NetworkAction+RequestCancel.m */; };
-		CECD1183222FC52500A454EC /* NSURLSessionTask+AddURLProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = CECD114D222FC52500A454EC /* NSURLSessionTask+AddURLProperty.m */; };
-		CECD1184222FC52500A454EC /* NetworkSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CECD114F222FC52500A454EC /* NetworkSessionManager.m */; };
-		CED583852230B9DF004A50F8 /* NSString+JSON.m in Sources */ = {isa = PBXBuildFile; fileRef = CED583842230B9DF004A50F8 /* NSString+JSON.m */; };
-		CED583882230BCD7004A50F8 /* NSDictionary+LogProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = CED583872230BCD7004A50F8 /* NSDictionary+LogProperty.m */; };
-		CED5838B2230C7E1004A50F8 /* LogProperty.plist in Resources */ = {isa = PBXBuildFile; fileRef = CED5838A2230C7E1004A50F8 /* LogProperty.plist */; };
-		CED5838D2230C802004A50F8 /* JsonChangePlist in Resources */ = {isa = PBXBuildFile; fileRef = CED5838C2230C802004A50F8 /* JsonChangePlist */; };
+		CED583A72230CAD7004A50F8 /* NetworkResponseSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = CED5838F2230CAD7004A50F8 /* NetworkResponseSerializer.m */; };
+		CED583A82230CAD7004A50F8 /* NetworkAction.m in Sources */ = {isa = PBXBuildFile; fileRef = CED583902230CAD7004A50F8 /* NetworkAction.m */; };
+		CED583A92230CAD7004A50F8 /* NetworkConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = CED583922230CAD7004A50F8 /* NetworkConfig.m */; };
+		CED583AA2230CAD7004A50F8 /* NSString+JSON.m in Sources */ = {isa = PBXBuildFile; fileRef = CED583952230CAD7004A50F8 /* NSString+JSON.m */; };
+		CED583AB2230CAD7004A50F8 /* NSDictionary+LogProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = CED583972230CAD7004A50F8 /* NSDictionary+LogProperty.m */; };
+		CED583AC2230CAD7004A50F8 /* NetworkEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = CED583982230CAD7004A50F8 /* NetworkEngine.m */; };
+		CED583AD2230CAD7004A50F8 /* NetworkAction+RequestCancel.m in Sources */ = {isa = PBXBuildFile; fileRef = CED5839B2230CAD7004A50F8 /* NetworkAction+RequestCancel.m */; };
+		CED583AE2230CAD7004A50F8 /* NSURLSessionTask+AddURLProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = CED5839C2230CAD7004A50F8 /* NSURLSessionTask+AddURLProperty.m */; };
+		CED583AF2230CAD7004A50F8 /* NetworkSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CED5839E2230CAD7004A50F8 /* NetworkSessionManager.m */; };
+		CED583B02230CAD7004A50F8 /* LogProperty.plist in Resources */ = {isa = PBXBuildFile; fileRef = CED583A22230CAD7004A50F8 /* LogProperty.plist */; };
+		CED583B12230CAD7004A50F8 /* JsonChangePlist in Resources */ = {isa = PBXBuildFile; fileRef = CED583A32230CAD7004A50F8 /* JsonChangePlist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,27 +54,27 @@
 		CECD112A222FC51900A454EC /* SkRequestNetworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkRequestNetworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CECD112E222FC51900A454EC /* SkRequestNetworkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SkRequestNetworkTests.m; sourceTree = "<group>"; };
 		CECD1130222FC51900A454EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CECD113A222FC52400A454EC /* NetworkResponseSerializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkResponseSerializer.m; sourceTree = "<group>"; };
-		CECD113B222FC52400A454EC /* NetworkAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkAction.m; sourceTree = "<group>"; };
-		CECD113C222FC52400A454EC /* NetworkSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkSessionManager.h; sourceTree = "<group>"; };
-		CECD113D222FC52400A454EC /* NetworkConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkConfig.m; sourceTree = "<group>"; };
-		CECD113E222FC52400A454EC /* NetworkEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkEngine.m; sourceTree = "<group>"; };
-		CECD114B222FC52400A454EC /* NSURLSessionTask+AddURLProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURLSessionTask+AddURLProperty.h"; sourceTree = "<group>"; };
-		CECD114C222FC52500A454EC /* NetworkAction+RequestCancel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NetworkAction+RequestCancel.m"; sourceTree = "<group>"; };
-		CECD114D222FC52500A454EC /* NSURLSessionTask+AddURLProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURLSessionTask+AddURLProperty.m"; sourceTree = "<group>"; };
-		CECD114E222FC52500A454EC /* NetworkAction+RequestCancel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NetworkAction+RequestCancel.h"; sourceTree = "<group>"; };
-		CECD114F222FC52500A454EC /* NetworkSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkSessionManager.m; sourceTree = "<group>"; };
-		CECD1150222FC52500A454EC /* NetworkAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkAction.h; sourceTree = "<group>"; };
-		CECD1151222FC52500A454EC /* NetworkResponseSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkResponseSerializer.h; sourceTree = "<group>"; };
-		CECD1176222FC52500A454EC /* SBNetworkHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBNetworkHeader.h; sourceTree = "<group>"; };
-		CECD1177222FC52500A454EC /* NetworkConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkConfig.h; sourceTree = "<group>"; };
-		CECD1178222FC52500A454EC /* NetworkEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkEngine.h; sourceTree = "<group>"; };
-		CED583832230B9DF004A50F8 /* NSString+JSON.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+JSON.h"; sourceTree = "<group>"; };
-		CED583842230B9DF004A50F8 /* NSString+JSON.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+JSON.m"; sourceTree = "<group>"; };
-		CED583862230BCD7004A50F8 /* NSDictionary+LogProperty.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+LogProperty.h"; sourceTree = "<group>"; };
-		CED583872230BCD7004A50F8 /* NSDictionary+LogProperty.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+LogProperty.m"; sourceTree = "<group>"; };
-		CED5838A2230C7E1004A50F8 /* LogProperty.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = LogProperty.plist; sourceTree = "<group>"; };
-		CED5838C2230C802004A50F8 /* JsonChangePlist */ = {isa = PBXFileReference; lastKnownFileType = text; path = JsonChangePlist; sourceTree = "<group>"; };
+		CED5838F2230CAD7004A50F8 /* NetworkResponseSerializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkResponseSerializer.m; sourceTree = "<group>"; };
+		CED583902230CAD7004A50F8 /* NetworkAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkAction.m; sourceTree = "<group>"; };
+		CED583912230CAD7004A50F8 /* NetworkSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkSessionManager.h; sourceTree = "<group>"; };
+		CED583922230CAD7004A50F8 /* NetworkConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkConfig.m; sourceTree = "<group>"; };
+		CED583942230CAD7004A50F8 /* NSDictionary+LogProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+LogProperty.h"; sourceTree = "<group>"; };
+		CED583952230CAD7004A50F8 /* NSString+JSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+JSON.m"; sourceTree = "<group>"; };
+		CED583962230CAD7004A50F8 /* NSString+JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+JSON.h"; sourceTree = "<group>"; };
+		CED583972230CAD7004A50F8 /* NSDictionary+LogProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+LogProperty.m"; sourceTree = "<group>"; };
+		CED583982230CAD7004A50F8 /* NetworkEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkEngine.m; sourceTree = "<group>"; };
+		CED5839A2230CAD7004A50F8 /* NSURLSessionTask+AddURLProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURLSessionTask+AddURLProperty.h"; sourceTree = "<group>"; };
+		CED5839B2230CAD7004A50F8 /* NetworkAction+RequestCancel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NetworkAction+RequestCancel.m"; sourceTree = "<group>"; };
+		CED5839C2230CAD7004A50F8 /* NSURLSessionTask+AddURLProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURLSessionTask+AddURLProperty.m"; sourceTree = "<group>"; };
+		CED5839D2230CAD7004A50F8 /* NetworkAction+RequestCancel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NetworkAction+RequestCancel.h"; sourceTree = "<group>"; };
+		CED5839E2230CAD7004A50F8 /* NetworkSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkSessionManager.m; sourceTree = "<group>"; };
+		CED5839F2230CAD7004A50F8 /* NetworkAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkAction.h; sourceTree = "<group>"; };
+		CED583A02230CAD7004A50F8 /* NetworkResponseSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkResponseSerializer.h; sourceTree = "<group>"; };
+		CED583A22230CAD7004A50F8 /* LogProperty.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = LogProperty.plist; sourceTree = "<group>"; };
+		CED583A32230CAD7004A50F8 /* JsonChangePlist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = JsonChangePlist; sourceTree = "<group>"; };
+		CED583A42230CAD7004A50F8 /* SBNetworkHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBNetworkHeader.h; sourceTree = "<group>"; };
+		CED583A52230CAD7004A50F8 /* NetworkConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkConfig.h; sourceTree = "<group>"; };
+		CED583A62230CAD7004A50F8 /* NetworkEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkEngine.h; sourceTree = "<group>"; };
 		FDA6306EA2EE420C1BF49168 /* Pods-SkRequestNetwork.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkRequestNetwork.release.xcconfig"; path = "Target Support Files/Pods-SkRequestNetwork/Pods-SkRequestNetwork.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -109,6 +109,7 @@
 		CECD1109222FC51600A454EC = {
 			isa = PBXGroup;
 			children = (
+				CED5838E2230CAD7004A50F8 /* Network */,
 				CECD1114222FC51600A454EC /* SkRequestNetwork */,
 				CECD112D222FC51900A454EC /* SkRequestNetworkTests */,
 				CECD1113222FC51600A454EC /* Products */,
@@ -129,7 +130,6 @@
 		CECD1114222FC51600A454EC /* SkRequestNetwork */ = {
 			isa = PBXGroup;
 			children = (
-				CECD1139222FC52400A454EC /* Network */,
 				CECD1115222FC51600A454EC /* AppDelegate.h */,
 				CECD1116222FC51600A454EC /* AppDelegate.m */,
 				CECD1118222FC51600A454EC /* ViewController.h */,
@@ -152,54 +152,54 @@
 			path = SkRequestNetworkTests;
 			sourceTree = "<group>";
 		};
-		CECD1139222FC52400A454EC /* Network */ = {
+		CED5838E2230CAD7004A50F8 /* Network */ = {
 			isa = PBXGroup;
 			children = (
-				CED583892230C7AD004A50F8 /* Resource */,
-				CED583822230B8F3004A50F8 /* Other */,
-				CECD1176222FC52500A454EC /* SBNetworkHeader.h */,
-				CECD1150222FC52500A454EC /* NetworkAction.h */,
-				CECD113B222FC52400A454EC /* NetworkAction.m */,
-				CECD1177222FC52500A454EC /* NetworkConfig.h */,
-				CECD113D222FC52400A454EC /* NetworkConfig.m */,
-				CECD1178222FC52500A454EC /* NetworkEngine.h */,
-				CECD113E222FC52400A454EC /* NetworkEngine.m */,
-				CECD1151222FC52500A454EC /* NetworkResponseSerializer.h */,
-				CECD113A222FC52400A454EC /* NetworkResponseSerializer.m */,
-				CECD113C222FC52400A454EC /* NetworkSessionManager.h */,
-				CECD114F222FC52500A454EC /* NetworkSessionManager.m */,
-				CECD114A222FC52400A454EC /* NetworkTool */,
+				CED5838F2230CAD7004A50F8 /* NetworkResponseSerializer.m */,
+				CED583902230CAD7004A50F8 /* NetworkAction.m */,
+				CED583912230CAD7004A50F8 /* NetworkSessionManager.h */,
+				CED583922230CAD7004A50F8 /* NetworkConfig.m */,
+				CED583932230CAD7004A50F8 /* Other */,
+				CED583982230CAD7004A50F8 /* NetworkEngine.m */,
+				CED583992230CAD7004A50F8 /* NetworkTool */,
+				CED5839E2230CAD7004A50F8 /* NetworkSessionManager.m */,
+				CED5839F2230CAD7004A50F8 /* NetworkAction.h */,
+				CED583A02230CAD7004A50F8 /* NetworkResponseSerializer.h */,
+				CED583A12230CAD7004A50F8 /* Resource */,
+				CED583A42230CAD7004A50F8 /* SBNetworkHeader.h */,
+				CED583A52230CAD7004A50F8 /* NetworkConfig.h */,
+				CED583A62230CAD7004A50F8 /* NetworkEngine.h */,
 			);
 			path = Network;
 			sourceTree = "<group>";
 		};
-		CECD114A222FC52400A454EC /* NetworkTool */ = {
+		CED583932230CAD7004A50F8 /* Other */ = {
 			isa = PBXGroup;
 			children = (
-				CECD114E222FC52500A454EC /* NetworkAction+RequestCancel.h */,
-				CECD114C222FC52500A454EC /* NetworkAction+RequestCancel.m */,
-				CECD114B222FC52400A454EC /* NSURLSessionTask+AddURLProperty.h */,
-				CECD114D222FC52500A454EC /* NSURLSessionTask+AddURLProperty.m */,
-			);
-			path = NetworkTool;
-			sourceTree = "<group>";
-		};
-		CED583822230B8F3004A50F8 /* Other */ = {
-			isa = PBXGroup;
-			children = (
-				CED583832230B9DF004A50F8 /* NSString+JSON.h */,
-				CED583842230B9DF004A50F8 /* NSString+JSON.m */,
-				CED583862230BCD7004A50F8 /* NSDictionary+LogProperty.h */,
-				CED583872230BCD7004A50F8 /* NSDictionary+LogProperty.m */,
+				CED583942230CAD7004A50F8 /* NSDictionary+LogProperty.h */,
+				CED583952230CAD7004A50F8 /* NSString+JSON.m */,
+				CED583962230CAD7004A50F8 /* NSString+JSON.h */,
+				CED583972230CAD7004A50F8 /* NSDictionary+LogProperty.m */,
 			);
 			path = Other;
 			sourceTree = "<group>";
 		};
-		CED583892230C7AD004A50F8 /* Resource */ = {
+		CED583992230CAD7004A50F8 /* NetworkTool */ = {
 			isa = PBXGroup;
 			children = (
-				CED5838A2230C7E1004A50F8 /* LogProperty.plist */,
-				CED5838C2230C802004A50F8 /* JsonChangePlist */,
+				CED5839A2230CAD7004A50F8 /* NSURLSessionTask+AddURLProperty.h */,
+				CED5839B2230CAD7004A50F8 /* NetworkAction+RequestCancel.m */,
+				CED5839C2230CAD7004A50F8 /* NSURLSessionTask+AddURLProperty.m */,
+				CED5839D2230CAD7004A50F8 /* NetworkAction+RequestCancel.h */,
+			);
+			path = NetworkTool;
+			sourceTree = "<group>";
+		};
+		CED583A12230CAD7004A50F8 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				CED583A22230CAD7004A50F8 /* LogProperty.plist */,
+				CED583A32230CAD7004A50F8 /* JsonChangePlist */,
 			);
 			path = Resource;
 			sourceTree = "<group>";
@@ -296,8 +296,8 @@
 			files = (
 				CECD1122222FC51900A454EC /* LaunchScreen.storyboard in Resources */,
 				CECD111F222FC51900A454EC /* Assets.xcassets in Resources */,
-				CED5838B2230C7E1004A50F8 /* LogProperty.plist in Resources */,
-				CED5838D2230C802004A50F8 /* JsonChangePlist in Resources */,
+				CED583B02230CAD7004A50F8 /* LogProperty.plist in Resources */,
+				CED583B12230CAD7004A50F8 /* JsonChangePlist in Resources */,
 				CECD111D222FC51600A454EC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -363,18 +363,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CECD117C222FC52500A454EC /* NetworkEngine.m in Sources */,
+				CED583AD2230CAD7004A50F8 /* NetworkAction+RequestCancel.m in Sources */,
 				CECD111A222FC51600A454EC /* ViewController.m in Sources */,
-				CED583882230BCD7004A50F8 /* NSDictionary+LogProperty.m in Sources */,
-				CECD1179222FC52500A454EC /* NetworkResponseSerializer.m in Sources */,
-				CED583852230B9DF004A50F8 /* NSString+JSON.m in Sources */,
-				CECD1183222FC52500A454EC /* NSURLSessionTask+AddURLProperty.m in Sources */,
+				CED583A72230CAD7004A50F8 /* NetworkResponseSerializer.m in Sources */,
+				CED583AA2230CAD7004A50F8 /* NSString+JSON.m in Sources */,
 				CECD1125222FC51900A454EC /* main.m in Sources */,
+				CED583AE2230CAD7004A50F8 /* NSURLSessionTask+AddURLProperty.m in Sources */,
 				CECD1117222FC51600A454EC /* AppDelegate.m in Sources */,
-				CECD1184222FC52500A454EC /* NetworkSessionManager.m in Sources */,
-				CECD117B222FC52500A454EC /* NetworkConfig.m in Sources */,
-				CECD1182222FC52500A454EC /* NetworkAction+RequestCancel.m in Sources */,
-				CECD117A222FC52500A454EC /* NetworkAction.m in Sources */,
+				CED583AF2230CAD7004A50F8 /* NetworkSessionManager.m in Sources */,
+				CED583A92230CAD7004A50F8 /* NetworkConfig.m in Sources */,
+				CED583AC2230CAD7004A50F8 /* NetworkEngine.m in Sources */,
+				CED583AB2230CAD7004A50F8 /* NSDictionary+LogProperty.m in Sources */,
+				CED583A82230CAD7004A50F8 /* NetworkAction.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
